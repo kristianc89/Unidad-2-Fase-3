@@ -1,0 +1,89 @@
+div{
+    max-width: 92%;
+    margin: auto;
+}
+.contenedor p{
+    color: black;
+}
+.contenedor{
+    background-color: cyan;
+    max-width: 92%;
+    margin: auto;
+}
+nav{
+    height: 30pt;
+    background-color: blue;
+    max-width: 92%;
+    margin: auto;
+    text-align: center;
+        
+}
+.izquierda{
+    display: inline-block;
+    margin-left: 150pt;
+    
+}
+.derecha{
+    display: inline-block;
+    margin-left: 100pt;
+    
+}
+.menu li{
+    display: inline-block;
+}
+li a, boton{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+   
+}
+li a{
+    
+    margin-top: 10pt;
+    margin-left: 20pt;
+    margin-right: 20pt;
+}
+.listaDesplegable{
+    display: none;
+    background-color: white;
+    position: absolute;
+    background-color: blue;
+}
+.listaDesplegable a{
+    display: block;
+    text-align: left;
+    /*color: black;*/
+}
+.boton:hover .listaDesplegable{
+    display: block;
+}
+li a:hover{
+    background-color: cyan;
+    color: black;
+    
+}
+footer{
+    max-width: 92%;
+    background-color:darkslateblue;
+    margin: auto;
+}
+.autor-contador{
+    
+    background-color:darkslateblue;
+    width: 100%;
+    margin: auto;
+}
+.columnas2{
+    background-color:darkslateblue;
+    width: 50%;
+    float: left;
+}
+.texto-html{
+    display: inline-block;
+    max-width: 65%;
+    
+}
+.imagen-html{
+    display: inline-block;
+    max-width: 27%;
+}
